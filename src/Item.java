@@ -10,26 +10,32 @@ public class Item {
     }
 
     public String getNameOfItem() {
+
         return nameOfItem;
     }
 
     public void setNameOfItem(String nameOfItem) {
+
         this.nameOfItem = nameOfItem;
     }
 
     public double getCost() {
+
         return cost;
     }
 
     public void setCost(double cost) {
+
         this.cost = cost;
     }
 
     public Category getCategory() {
+
         return category;
     }
 
     public void setCategory(Category category) {
+
         this.category = category;
     }
 }

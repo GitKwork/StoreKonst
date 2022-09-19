@@ -10,6 +10,7 @@ public abstract class Human implements Communication {
     }
 
     public String getName() {
+
         return name;
     }
 
@@ -18,10 +19,20 @@ public abstract class Human implements Communication {
     }
 
     public double getMoney() {
+
         return money;
     }
 
     public void setMoney(double money) {
+
         this.money = money;
+    }
+
+    public int getLoveIndex() {
+        return loveIndex;
+    }
+
+    public void setLoveIndex(int loveIndex) {
+        this.loveIndex = loveIndex;
     }
 }
